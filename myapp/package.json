@@ -9,9 +9,6 @@
     "bootstrap": "^5.2.3",
     "emailjs": "^4.0.1",
     "fs": "^0.0.1-security",
-    "glamor": "^2.20.40",
-    "node-fetch": "^3.3.1",
-    "node-sass": "^7.0.3",
     "prettier-package-json": "^2.8.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
@@ -21,6 +18,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
