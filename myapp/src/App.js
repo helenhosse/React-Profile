@@ -1,5 +1,4 @@
 // import logo from './logo.svg';
-import './App.css';
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -7,6 +6,8 @@ import AboutMe from './content/aboutMe';
 import Portfolio from './content/portfolio';
 import Resume from './content/resume';
 import Contact from './content/contact';
+
+import './App.css';
 
 function App() {
   return (

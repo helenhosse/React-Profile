@@ -1,38 +1,121 @@
-.App {
+.app {
+  position: relative;
+  min-height: 100%;
+}
+
+.header {
+  background: lightgreen;
+  height: 20%;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+
+.header h1 {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  font-size: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+#signature {
+  position: absolute;
+  left: 0;
+  height: 120%;
+  padding: 7px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.navBarDiv {
+  float: right;
+  top: 20px;
+  right: 150px;
+  position: absolute;
+}
+
+#navBar {
+  position: relative;
+  height: 50px;
+  width: auto;
+  padding: 15px;
+}
+
+.footer {
+  background: lightgoldenrodyellow;
+  position: absolute;
+  height: 5vh;
+  width: 110%;
+  bottom: 0;
+  text-align: center; 
+  font-size: 1rem;
+}
+
+a:link {
+  color: lightblue;
+}
+
+a:visited {
+  color: lightskyblue;
+}
+
+#content {
+  top: 17%;
+  color: white;
+  font-size: 1.2rem;
+  position: absolute;
+}
+
+#contentBox {
+  padding: 20px;
+  display: flex;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+#words {
+  flex: 2;
+  padding: 30px;
+}
+
+#portrait {
+  flex: 1;
+}
+
+.portBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#portImg {
+  flex: 0 35%;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 3%;
+  filter: grayscale(100%);
+  white-space: nowrap;
+}
+
+#portImg:hover {
+  transition: all .6s ease;
+  filter: grayscale(0%);
+}
+
+@media (max-width: 600px) {
+  #contentBox {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 1200px) {
+  .navBarDiv {
+    display: none;
   }
+
+#navBar {
+  display: none;
+}
 }
