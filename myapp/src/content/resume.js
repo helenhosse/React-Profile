@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Resume from '../../assets/resume/resume.pdf';
+import Resume from '../assets/resumefile/resume.PDF';
 
-function Resume() {
+function resumeFile() {
     return (
         <div id="resume">
             <h1>Resume</h1>
@@ -17,4 +17,4 @@ function Resume() {
     )
 }
 
-export default Resume;
+export default resumeFile;

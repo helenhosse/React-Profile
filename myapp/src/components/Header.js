@@ -1,8 +1,8 @@
 import React from 'react';
-import resume from '../assets/signatures/Resume.png';
-import portfolio from '../assets/signatures/Portfolio.png';
-import contact from '../assets/signatures/Contact.png';
-import aboutMe from '../assets/signatures/About Me.png';
+import resume from '../assets/portfolio/RESUME.png';
+import portfolio from '../assets/portfolio/PORTFOLIO.png';
+import contact from '../assets/portfolio/CONTACT.png';
+import aboutMe from '../assets/portfolio/ABOUTME.png';
 
 
 function Header() {

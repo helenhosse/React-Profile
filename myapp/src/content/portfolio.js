@@ -1,11 +1,11 @@
 import React from 'react';
 
-import workScheduler from '../../assets/portfolio/workdayscheduler.png';
-import codersCuisine from '../../assets/portfolio/coders-cuisine.png';
-import employeeTracker from '../../assets/portfolio/htmlpreview.png';
-import readmeGenerator from '../../assets/portfolio/readme-generator-photo.png';
-import passwordGen from '../../assets/portfolio/readme-generator-photo.png';
-import bookStore from '../../assets/portfolio/project-2.png';
+import workScheduler from '../assets/portfolio/workdayScheduler.png';
+import codersCuisine from '../assets/portfolio/coders-cuisine.PNG';
+import employeeTracker from '../assets/portfolio/htmlpreview.png';
+import readmeGenerator from '../assets/portfolio/readme-generator-photo.png';
+import passwordGen from '../assets/portfolio/readme-generator-photo.png';
+import bookStore from '../assets/portfolio/project-2.png';
 
 function Portfolio() {
 

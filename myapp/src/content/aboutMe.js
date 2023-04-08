@@ -1,6 +1,6 @@
 import React from 'react';
 
-import portrait from '../../assets/resumephoto.png';
+import portrait from '../assets/portfolio/resumephoto.png';
 
 function AboutMe() {
     return (
