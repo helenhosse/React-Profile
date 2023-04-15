@@ -1,8 +1,8 @@
 import React from 'react';
-import resume from '../assets/portfolio/RESUME.png';
-import portfolio from '../assets/portfolio/PORTFOLIO.png';
-import contact from '../assets/portfolio/CONTACT.png';
-import aboutMe from '../assets/portfolio/ABOUTME.png';
+import resume from '../assets/resumefile/resume.PDF';
+import portfolio from '../assets/signitures/PORTFOLIO.png';
+import contact from '../assets/signitures/CONTACT.png';
+import aboutMe from '../assets/signitures/ABOUTME.png';
 
 
 function Header() {
@@ -16,7 +16,5 @@ function Header() {
         </div></div>
     )
 }
-
-// nav bar
 
 export default Header;
